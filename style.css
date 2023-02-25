@@ -116,12 +116,9 @@ nav ul li a:hover::before {
 
 #menu {
     display: none;
-    cursor: pointer;
-    color: white;
-    font-size: 23px;
 }
 
-#menu2 {
+#menu, #menu2 {
     cursor: pointer;
     color: white;
     font-size: 23px;
