@@ -11,14 +11,9 @@
 
 .sidenav {
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: fixed;
     pointer-events: none;
     overflow: auto;
-    height: 100vh;
-    padding: 0px 150px;
     width: 100%;
     opacity: 0;
     transition: 0.3s;
@@ -31,10 +26,13 @@
 }
 
 #homepage {
+    position: relative;
+}
+
+#homepage, .sidenav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
     height: 100vh;
     padding: 0px 150px;
 }
