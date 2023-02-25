@@ -35,15 +35,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     padding: 0px 150px;
-}
-
-.top, .bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 100px;
 }
 
 .center ul {
@@ -70,11 +63,14 @@
     font-size: 15px;
 }
 
-nav, footer {
+nav, footer, .top, .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    min-height: 100px;
+}
+
+nav, footer {
     z-index: 2;
     opacity: 0;
     animation: rise forwards;
