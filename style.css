@@ -145,7 +145,7 @@ nav ul li a:hover::before {
     color: white;
     font-size: 15px;
     max-width: 500px;
-    line-height: 2em;
+    line-height: 1.9em;
     margin: 20px 0px calc(20px + 1.3em) 0px;
 }
 
